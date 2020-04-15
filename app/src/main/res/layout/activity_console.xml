@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rap.console">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/rx"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="&lt;Read Buffer>"
+            android:id="@+id/readBuffer"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/forwardBtn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_above="@id/brakeBtn"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/forward" />
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/brakeBtn"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/back" />
+
+    <Button
+        android:id="@+id/brakeBtn"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:text="@string/brake"/>
+
+    <ImageButton
+        android:id="@+id/rightBtn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@id/brakeBtn"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/right" />
+
+    <ImageButton
+        android:id="@+id/leftBtn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_toLeftOf="@id/brakeBtn"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/left" />
+
+    <Button
+        android:id="@+id/disconnectBtn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="disconnect" />
+
+</RelativeLayout>

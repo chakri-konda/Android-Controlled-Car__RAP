@@ -1,0 +1,10 @@
+<resources>
+    <string name="RAP">R A P</string>
+    <string name="rx">RX:</string>
+    <string name="icon">RAP</string>
+    <string name="brake">Brake</string>
+    <string name="appbar_scrolling_view_behavior">heyy</string>
+    <string name="lt_bluetooth_status"><![CDATA[<Bluetooth Status>]]></string>
+    <string name="console">console</string>
+    <string name="status">Status:</string>
+</resources>
