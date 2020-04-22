@@ -1,3 +1,3 @@
-# Android-Controlled-Car__RAP
-## Remote Arduino Project
-This project is about creating an android appliaction to control arduino Robot (car) through the Bluetooth technology and the arduino code has also been uploaded.
+# Android-Controlled-Car
+## Remote Arduino Project (RAP)
+This project is about creating an android application to control an arduino Robot (car) remotly through Bluetooth Communication.
