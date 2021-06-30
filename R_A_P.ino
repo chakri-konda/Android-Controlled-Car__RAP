@@ -4,7 +4,7 @@ const int IN3 = 10;
 const int IN4 = 11;
 
 char data = 'h';    //Variable for storing the recieved data
-int velocity = 255; //Keeping motors on HIGH basicaly, Ranges(0-255) 
+int velocity = 255; //Keeping motors on HIGH, Ranges(0-255) 
 
 void setup() {
   Serial.begin(9600);
